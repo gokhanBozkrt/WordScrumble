@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F74DC67A281568B30039CD8D /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = F74DC679281568B30039CD8D /* start.txt */; };
 		F77334B62814807200C60B91 /* WordScrambleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77334B52814807200C60B91 /* WordScrambleApp.swift */; };
 		F77334B82814807200C60B91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77334B72814807200C60B91 /* ContentView.swift */; };
 		F77334BA2814807300C60B91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77334B92814807300C60B91 /* Assets.xcassets */; };
 		F77334BD2814807300C60B91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77334BC2814807300C60B91 /* Preview Assets.xcassets */; };
+		F77334C42814868000C60B91 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77334C32814868000C60B91 /* ListView.swift */; };
+		F77334C6281488F200C60B91 /* LoadFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77334C5281488F200C60B91 /* LoadFileView.swift */; };
+		F77334C82815329300C60B91 /* StringsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77334C72815329300C60B91 /* StringsView.swift */; };
+		F78FA47C28267AB0002CFC11 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78FA47B28267AB0002CFC11 /* extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F74DC679281568B30039CD8D /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		F77334B22814807200C60B91 /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77334B52814807200C60B91 /* WordScrambleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleApp.swift; sourceTree = "<group>"; };
 		F77334B72814807200C60B91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F77334B92814807300C60B91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F77334BC2814807300C60B91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F77334C32814868000C60B91 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		F77334C5281488F200C60B91 /* LoadFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFileView.swift; sourceTree = "<group>"; };
+		F77334C72815329300C60B91 /* StringsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsView.swift; sourceTree = "<group>"; };
+		F78FA47B28267AB0002CFC11 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F74DC67B281568BE0039CD8D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F74DC679281568B30039CD8D /* start.txt */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		F77334A92814807200C60B91 = {
 			isa = PBXGroup;
 			children = (
@@ -53,8 +71,13 @@
 			children = (
 				F77334B52814807200C60B91 /* WordScrambleApp.swift */,
 				F77334B72814807200C60B91 /* ContentView.swift */,
+				F77334C32814868000C60B91 /* ListView.swift */,
+				F77334C5281488F200C60B91 /* LoadFileView.swift */,
+				F77334C72815329300C60B91 /* StringsView.swift */,
+				F74DC67B281568BE0039CD8D /* Data */,
 				F77334B92814807300C60B91 /* Assets.xcassets */,
 				F77334BB2814807300C60B91 /* Preview Content */,
+				F78FA47B28267AB0002CFC11 /* extension.swift */,
 			);
 			path = WordScramble;
 			sourceTree = "<group>";
@@ -126,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F77334BD2814807300C60B91 /* Preview Assets.xcassets in Resources */,
+				F74DC67A281568B30039CD8D /* start.txt in Resources */,
 				F77334BA2814807300C60B91 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77334C6281488F200C60B91 /* LoadFileView.swift in Sources */,
+				F77334C82815329300C60B91 /* StringsView.swift in Sources */,
 				F77334B82814807200C60B91 /* ContentView.swift in Sources */,
+				F78FA47C28267AB0002CFC11 /* extension.swift in Sources */,
 				F77334B62814807200C60B91 /* WordScrambleApp.swift in Sources */,
+				F77334C42814868000C60B91 /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
